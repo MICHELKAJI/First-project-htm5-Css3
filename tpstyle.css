@@ -1,0 +1,211 @@
+body
+{
+	background: url("images/fond_jaune.png");
+	text-align: justify;
+	margin-left: 90px;
+	margin-right: 90px;
+	
+}
+#tete 
+{
+	width: 1280px;
+	margin: auto;
+}
+header ul
+{
+	flex-direction: row;
+
+
+
+	
+}
+#bannier
+{
+	background: url("images/sanfrancisco.jpg") repeat-x scroll;
+	height: 250px;
+	border-radius: 4px;
+}
+header
+{
+	display: flex;
+	justify-content: space-between;
+	align-items: flex-end;
+
+}
+
+ #tete ul
+ {
+ 	
+ 	display: flex;
+ 	list-style-type: none;
+ 
+ }
+ header
+ {
+ 	background: url("images/separateur.png") repeat-x bottom scroll;
+ 	margin-bottom: 15px;
+ }
+ 
+ 	
+ 
+	
+
+nav ul 
+{
+	list-style-type: none;
+
+}
+nav li 
+{
+	margin-right: 25px;
+
+}
+nav a
+{
+	text-decoration: none;
+	color: black;
+	font-weight: bold;
+	
+
+}
+nav a:hover 
+{
+	
+	color: red;
+	text-decoration: underline;
+
+
+}
+
+	
+section
+{
+	display: flex;
+	flex: 0.5;
+	
+}
+footer
+{
+	display: flex;
+	justify-content: space-between;
+	margin-right: 30px;
+
+
+}
+#list1 
+{
+	display: flex;
+}
+aside 
+{
+	background-color:grey;
+	color: white;
+	padding-right: 10px;
+	padding-left: 10px;
+	text-align: justify;
+	width: 500px;
+	margin-left:30px;
+	box-shadow: 0px 3px 4px grey;
+	border-radius: 4px
+
+}
+
+.zozor1
+{
+    padding-left: 25px;
+    padding-right: 25px;
+}
+#bannier p
+{
+	position: absolute;
+	bottom: 0px;
+	top: 322px;
+	background: black;
+	color: white;
+	opacity: 0.6;
+	height: 38px;
+	width: 1296px;
+	box-shadow: 1px 3px 5px black;
+
+
+}
+footer
+{
+	background:url("images/ico_top.png") top center no-repeat ,url("images/ombre.png") repeat-x scroll top;
+	margin-top: 25px;
+	margin-bottom: 40px;
+}
+.bouton
+{
+	position: relative;
+	left: 900px ;
+	text-decoration: none;
+	border: 2px solid red;
+	background: rgb(233, 39, 12);
+	color: white;
+}
+aside h2
+{
+	font-size: small;
+	text-align: center;
+}
+aside p 
+{
+	font-size: x-small;
+}
+/* Définition des polices personnalisées */
+
+@font-face
+{
+    font-family: 'BallparkWeiner';
+    src: url('polices/ballpark.eot');
+    src: url('polices/ballpark.eot?#iefix') format('embedded-opentype'),
+         url('polices/ballpark.woff') format('woff'),
+         url('polices/ballpark.ttf') format('truetype'),
+         url('polices/ballpark.svg#BallparkWeiner') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face
+{
+    font-family: 'Dayrom';
+    src: url('polices/dayrom.eot');
+    src: url('polices/dayrom.eot?#iefix') format('embedded-opentype'),
+         url('polices/dayrom.woff') format('woff'),
+         url('polices/dayrom.ttf') format('truetype'),
+         url('polices/dayrom.svg#Dayrom') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+section h2,footer h2, nav a, aside p
+{
+	font-family: 'Dayrom', serif;
+	font-weight: normal;
+	font-size: medium;
+}
+header h2
+{
+	font-family:'BallparkWeiner', serif ;
+	font-size: x-large;
+	font-style: italic;
+}
+#mesami ul
+{
+	list-style-image: url("images/ico_liensexterne.png");
+}
+#mesami ul
+{
+	list-style-type: none;
+}
+form
+{
+	background-color: rgb(43, 226, 83);
+	color: #000;
+	opacity: 0.6;
+	width: 200px;
+	box-shadow: #000 2px 4px 6px;
+	border-radius: 4em;
+}
+
+
